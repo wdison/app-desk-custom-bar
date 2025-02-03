@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-item {
+  margin-right: 20px;
+}
+
+.nav-button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#search-input {
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.window-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.window-controls button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.barra {
+  -webkit-app-region: no-drag;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  user-select: none;
+  cursor: move;
+}
+
+.botoes {
+  display: flex;
+  gap: 5px;
+}
+
+.botoes button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.botoes button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,15 @@
+{
+  "name": "app-desk-custom-bar",
+  "version": "1.0.0",
+  "description": "Teste vscode App Desktop Custom Bar",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.3.1"
+  }
+}
